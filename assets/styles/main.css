@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+  font-family: "Poppins", serif;
+*/
+
+#section {
+    width: 100%;
+    padding: 82px;
+    margin-top: 60px;
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 35%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.Nproduto {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #F7E6D3;
+}
+
+.box h3 {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+
+.preco {
+    font-size: 4rem;
+    color: #EB1B24;
+    font-weight: 300;
+}
+
+.botoes {
+    margin-top: 20px;
+}
+
+.btn1 {
+    width: 105px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: #EB1B24;
+    color: #fff;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 105px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: #272C34;
+    color: #fff;
+    font-size: 0.9rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin-left: 12px;
+}
