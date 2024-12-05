@@ -2,3 +2,33 @@
 /*
     font-family: "Poppins", sans-serif;
 */
+
+#header {
+    width: 100%;
+}
+
+.header_nav{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_ul {
+    display: flex;
+    gap: 37px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.nav_ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.nav_ul li a:hover {
+    color: #EB1B24;
+}
